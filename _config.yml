@@ -11,8 +11,9 @@ exclude:
 # Site settings
 title: allgebrist
 subtitle: > 
-        "«Первый блин всегда комом»
-         The first pancake is always a blob"
+         «Первый блин всегда комом» 
+         
+         The first pancake is always a blob
 email: allan.zea98@gmail.com
 name: Allan A. Zea
 description: >
