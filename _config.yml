@@ -1,0 +1,13 @@
+# General Jekyll Config
+highlighter: rogue
+name: allgebrist
+description: My personal blog
+url: "http://allgebrist.github.io"
+lsi: false
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Genfile, Genfile.lock]
+
+# Build settings
+markdown: kramdown
+theme: bencentra/centrarium
+ 
