@@ -1,7 +1,7 @@
 # General Jekyll Config
 highlighter: rogue
 name: allgebrist
-description: My personal blog
+description: My website
 url: "http://allgebrist.github.io"
 lsi: false
 
