@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 markdown: kramdown
 
 katex:
-  path_to_js: "./_assets/katex.min.js"
+  path_to_js: "/assets/katex.min.js"
 
 paginate: 5
 paginate_path: "/page:num/"
