@@ -10,4 +10,4 @@ cover:  "/assets/instacode.png"
 
 Welcome to my personal website!
 
-`$$ a+b $$`
+$$ a+b $$
