@@ -25,24 +25,11 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
 
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
-
-# jekyll-assets config
-assets:
-  digest: false
-  sources:
-    - node_modules
-  raw_precompile:
-    - src: font-awesome/fonts/*
-      dst: fonts
-    - src: katex/dist/fonts/*
-      dst: fonts
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
