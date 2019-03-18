@@ -26,6 +26,9 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
+katex:
+  path_to_js: "./_assets/katex.min.js"
+
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
