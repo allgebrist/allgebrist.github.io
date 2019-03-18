@@ -75,21 +75,6 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-   
-   - name: Twitter
-    icon: twitter
-    username: 
-    url: 
-    desc: Share on Twitter
-    share: true
-
-  - name: Facebook
-    icon: facebook
-    username: 
-    url:
-    desc: Share on Facebook
-    share: true
- 
   
   - name: GitHub
     icon: github
