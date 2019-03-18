@@ -3,7 +3,7 @@ layout: post
 title:  "My first post!"
 date:   2019-03-18
 author: Allan Zea
-categories: Jekyll
+categories: general
 tags:	welcome
 cover:  "/assets/instacode.png"
 ---
