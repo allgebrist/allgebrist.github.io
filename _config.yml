@@ -24,7 +24,6 @@ cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
-markdown: kramdown
 
 katex:
   path_to_js: "/assets/katex.min.js"
