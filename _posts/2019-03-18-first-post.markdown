@@ -10,6 +10,4 @@ cover:  "/assets/instacode.png"
 
 Welcome to my personal website!
 
-<p align = "center">
-$$ a+b $$
-</p>
+$$\begin{align} a+b \end{align}$$
