@@ -5,9 +5,7 @@ date:   2019-03-18
 author: Allan Zea
 categories: General
 tags:	welcome
-cover:  "/assets/instacode.png"
 ---
 
 Welcome to my personal website!
 
-$$\begin{align} a+b \end{align}$$
