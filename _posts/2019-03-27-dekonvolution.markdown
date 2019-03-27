@@ -7,6 +7,8 @@ categories: Maschinelles Lernen
 tags:	maschinelleslernen
 ---
 
+Heutzutage produziert die globale Wissenschaft ganz riesige Mengen von Daten, die immer schweriger zu verarbeiten sind und deren Größe sich immer in kürzeren Zeiträumen verdoppelt. Eine der größten Herausforderungen ist es nun, solche Datenmengen auf eine effiziente Weise analysieren zu können.
+
 Kurz gesagt dient unsere Methode dem Zweck, komplexe und vernetzte Datenmengen zu zerlegen, 
 um ihre zugrunde liegenden Bestandteile herauszufinden. Solche Bestandteile betrachten wir als 
 Kandidatenalgorithmen/Computerprogramme, die die Daten generieren könnten.
