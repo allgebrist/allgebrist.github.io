@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kausale Dekonvolution durch algorithmische generative Modelle"
-date:   2019-03-18
+date:   2019-03-27
 author: Allan Zea
 categories: machinelleslernen
 tags:	maschinelleslernen
