@@ -3,7 +3,7 @@ layout: post
 title:  "Kausale Dekonvolution durch algorithmische generative Modelle"
 date:   2019-03-18
 author: Allan Zea
-categories: Maschinelles Lernen
+categories: ML AI
 tags:	maschinelleslernen
 ---
 
@@ -14,3 +14,7 @@ um ihre zugrunde liegenden Bestandteile herauszufinden. Solche Bestandteile betr
 Kandidatenalgorithmen/Computerprogramme, die die Daten generieren könnten.
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
+
+## Literatur
+
+[1] H. Zenil, N.A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol 1(1), pp. 58-66, 2019.
