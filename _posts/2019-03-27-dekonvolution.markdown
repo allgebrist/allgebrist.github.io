@@ -18,7 +18,7 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 
 Die Kolmogorow-Komplexität $$K_T(w)$$ eines Wortes $$w$$ bezüglich der Turingmaschine $$T$$ ist definiert als die Länge der kürzesten Eingabe $$p$$
 
-$$ \begin{align*} K_T(w):=\min_{p:T(p)=w}|p| \end{align*} $$
+$$ K_T(w):=\min_{p:T(p)=w}|p| $$
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
