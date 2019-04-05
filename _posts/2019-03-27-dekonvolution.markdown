@@ -23,7 +23,7 @@ $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
 Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objekts bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist. Diese interessante Eigenschaft und viele anderen findet man in [4].
 
-Jetzt lässt sich die folgende Frage stellen: Kann man diese Maße überhaupt praktisch berechenen? Obwohl die Unberechenbarkeit von $$K$$ wohlbekannt ist, gibt es tatsächlich Methoden, die eine noch akzeptabele Approximation ermöglichen. Die algorithmische Wahrscheinlichkeit $$AP(w)$$ von $$w$$ ist die Wahrscheinlichkeit, ein (haltendes) Programm für
+Jetzt lässt sich die folgende Frage stellen: Kann man diese Maße überhaupt praktisch berechenen? Obwohl die Unberechenbarkeit der Kolmogorow-Komplexität wohlbekannt ist, gibt es tatsächlich Methoden, die eine noch akzeptabele Approximation ermöglichen. Die algorithmische Wahrscheinlichkeit $$AP(w)$$ von $$w$$ ist die Wahrscheinlichkeit, ein (haltendes) Programm für
 $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. Es gilt also,
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
