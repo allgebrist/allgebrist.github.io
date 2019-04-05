@@ -17,15 +17,20 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 
 ### Algorithmische Informationstheorie
 
-Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_{T_U}(w)$$ des Wortes $$w$$ bezüglich einer universellen Turingmaschine $$T_U$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. 
+Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_{T_U}(w)$$ des binären Wortes $$w$$ bezüglich einer universellen Turingmaschine $$T_U$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. 
 
 $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
 Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objekts bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist. Diese interessante Eigenschaft und viele anderen findet man in [4].
 
-Die algorithmische Wahrscheinlichkeit von $$w$$ ist also
+Die algorithmische Wahrscheinlichkeit von $$w$$ ist die Wahrscheinlichkeit, ein (haltendes) Programm fur
+$$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt.
 
 $$AP(w):=\sum_{p:T_U(p)=w}1/2^{|p|}$$
+
+$$|-\log_2AP(w)-K_{T_U}(w)|<c$$
+
+$$K_{T_U}(w)=-\log_2AP(w)+O(1)$$
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
