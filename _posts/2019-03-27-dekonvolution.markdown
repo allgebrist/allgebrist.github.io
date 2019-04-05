@@ -20,7 +20,7 @@ Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informa
 
 $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
-Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objekts bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist. Diese interessante Eigenschaft und viele anderen findet man in [4] finden.
+Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objekts bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist. Diese interessante Eigenschaft und viele anderen findet man in [4].
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
