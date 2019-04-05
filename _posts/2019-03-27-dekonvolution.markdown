@@ -20,7 +20,7 @@ Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informa
 
 $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
-Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Das heißt, dass die kürzeste Beschreibung eines beliebigen Objektes bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist.
+Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objektes bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist.
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
@@ -30,4 +30,4 @@ Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man a
 
 [2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russian: Проблемы передачи информации), vol 1(1), pp. 3-11, 1965.
 
-[3] J. Hromkovic, Theoretische Informatik: Formale Sprachen, Berechenbarkeit, Komplexitätstheorie, Algorithmik, Kommunikation und Kryptographie (5. ûberarbeitete Auflage). Springer-Vieweg, 2014.
+[3] J. Hromkovic, Theoretische Informatik: Formale Sprachen, Berechenbarkeit, Komplexitätstheorie, Algorithmik, Kommunikation und Kryptographie (5. überarbeitete Auflage). Springer-Vieweg, 2014.
