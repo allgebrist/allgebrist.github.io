@@ -14,9 +14,9 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 <iframe width="668" height="376" src="https://www.youtube.com/embed/rkmz7DAA-t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
 
 
-## Algorithmische Informationstheorie
+### Algorithmische Informationstheorie
 
-Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff. Die Kolmogorow-Komplexität $$K_T(w)$$ eines Wortes $$w$$ bezüglich der Turingmaschine $$T$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert.
+Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff. Die Kolmogorow-Komplexität $$K_T(w)$$ eines Wortes $$w$$ bezüglich der Turingmaschine $$T$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. Man schreibt also
 
 $$ K_T(w):=\min_{p:T(p)=w}|p| $$
 
@@ -25,3 +25,5 @@ Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man a
 ## Literatur
 
 [1] H. Zenil, N.A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol 1(1), pp. 58-66, 2019.
+
+[2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russian: Проблемы передачи информации), vol 1(1), pp. 3-11, 1965.
