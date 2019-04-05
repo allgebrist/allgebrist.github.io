@@ -29,7 +29,7 @@ Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man a
 
 [1] H. Zenil, N.A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol 1(1), pp. 58-66, 2019.
 
-[2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russian: Проблемы передачи информации), vol 1(1), pp. 3-11, 1965.
+[2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russisch: Проблемы передачи информации), vol 1(1), pp. 3-11, 1965.
 
 [3] J. Hromkovic, Theoretische Informatik: Formale Sprachen, Berechenbarkeit, Komplexitätstheorie, Algorithmik, Kommunikation und Kryptographie (5. überarbeitete Auflage). Springer-Vieweg, 2014.
 
