@@ -13,6 +13,7 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 
 <iframe width="668" height="376" src="https://www.youtube.com/embed/rkmz7DAA-t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
 
+***
 
 ### Algorithmische Informationstheorie
 
