@@ -16,11 +16,11 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 
 ### Algorithmische Informationstheorie
 
-Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_{T_U}(w)$$ eines Wortes $$w$$ bezüglich der universellen Turingmaschine $$T_U$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. 
+Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_{T_U}(w)$$ des Wortes $$w$$ bezüglich einer universellen Turingmaschine $$T_U$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. 
 
 $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
-Man kann also die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung betrachten. 
+Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Das heißt, dass die kürzeste Beschreibung eines beliebigen Objektes bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist.
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
@@ -29,3 +29,5 @@ Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man a
 [1] H. Zenil, N.A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol 1(1), pp. 58-66, 2019.
 
 [2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russian: Проблемы передачи информации), vol 1(1), pp. 3-11, 1965.
+
+[3] J. Hromkovic, Theoretische Informatik: Formale Sprachen, Berechenbarkeit, Komplexitätstheorie, Algorithmik, Kommunikation und Kryptographie (5. ûberarbeitete Auflage). Springer-Vieweg, 2014.
