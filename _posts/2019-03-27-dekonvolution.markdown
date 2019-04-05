@@ -16,9 +16,9 @@ In einer Arbeit vom [Algorithmic Dynamics Lab](https://www.algorithmicdynamics.n
 
 ### Algorithmische Informationstheorie
 
-Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_T(w)$$ eines Wortes $$w$$ bezüglich der Turingmaschine $$T$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. Man schreibt also
+Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informationstheorie. Unsere Darstellung gründet auf den von Andrei N. Kolmogorow eingeführten Komplexitätsbegriff [2]. Die Kolmogorow-Komplexität $$K_{T_U}(w)$$ eines Wortes $$w$$ bezüglich einer universellen Turingmaschine $$T_U$$ ist definiert als die Länge des kürzesten Programms $$p$$, das $$w$$ generiert. Man schreibt also
 
-$$ K_T(w):=\min_{p:T(p)=w}|p|. $$
+$$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
 Alternativ kann man die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung betrachten. 
 
