@@ -21,7 +21,7 @@ Wir beginnen mit einigen grundlegenden Konzepten aus der algorithmischen Informa
 
 $$ K_{T_U}(w):=\min_{p:T_U(p)=w}|p|. $$
 
-Wenn solches $$p$$ nicht existiert, setzen wir $$K_{T_U}(w)=\infty$$.
+Wenn solches $$p$$ nicht existiert, setzt man $$K_{T_U}(w)=\infty$$.
 
 Man kann dieser Definition nach die Kolmogorow-Komplexität eines Objekts einfach als seine kleinste Beschreibung (Computerprogramm, das das Objekt generiert) betrachten. Ist $$T$$ eine beliebige Turingmaschine, so ist $$K_T(w)=K_{T_U}(w)+c_T$$ [3, Satz 2.1], wobei $$c_T$$ eine von $$w$$ unabhängige Konstante ist. Daraus folgt, dass die kürzeste Beschreibung eines beliebigen Objekts bis auf eine Konstante unabhängig von der gewählten Universalprogrammiersprache ist. Diese interessante Eigenschaft und viele anderen findet man in [4].
 
@@ -30,7 +30,7 @@ $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. 
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
 
-Wegen Invarianztheorem, $$|-\log_2AP(w)-K_{T_U}(w)|<c$$
+Wegen Invarianztheorem, $$ |-\log_2AP(w)-K_{T_U}(w)| < c $$
 
 $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$
 
