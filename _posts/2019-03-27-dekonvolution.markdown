@@ -30,7 +30,7 @@ $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. 
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
 
-Das Kodierungstheorem von Levin [5] besagt, dass $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$. In anderen Worten ist ein binäres Wort desto einfacher, je größer seine algorithmische Wahrscheinlichkeit ist.
+Das Kodierungstheorem von Levin [5] besagt, dass $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$. Anders ausgedrückt ist ein binäres Wort desto einfacher, je größer seine algorithmische Wahrscheinlichkeit ist. Delahaye und Zenil [6]
 
 ***
 
