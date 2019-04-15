@@ -30,7 +30,7 @@ $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. 
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
 
-Das Kodierungstheorem besagt, dass $$|-\log_2AP(w)-K_{T_U}(w)|<c$$
+Das Kodierungstheorem von Levin [5] besagt, dass $$|-\log_2AP(w)-K_{T_U}(w)|<c$$.
 
 $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$
 
