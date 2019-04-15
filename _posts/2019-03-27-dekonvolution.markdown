@@ -30,9 +30,7 @@ $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. 
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
 
-Das Kodierungstheorem von Levin [5] besagt, dass $$|-\log_2AP(w)-K_{T_U}(w)|<c$$.
-
-$$K_{T_U}(w)=-\log_2AP(w)+O(1)$$
+Das Kodierungstheorem von Levin [5] besagt, dass $$|-\log_2AP(w)-K_{T_U}(w)|<c$$. Mit anderen Worten $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$.
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
