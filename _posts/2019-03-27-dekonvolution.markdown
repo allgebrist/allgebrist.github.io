@@ -30,13 +30,13 @@ $$T_U$$ aus der Menge aller möglichen Programme zu wählen, das $$w$$ erzeugt. 
 
 $$AP(w):=\sum_{p:T_U(p)=w}2^{-|p|}.$$
 
-Das Kodierungstheorem von Levin [5] besagt, dass $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$. Das heißt, ein binäres Wort is desto einfacher, je größer seine algorithmische Wahrscheinlichkeit ist.
+Das Kodierungstheorem von Levin [5] besagt, dass $$K_{T_U}(w)=-\log_2AP(w)+O(1)$$. Das heißt, ein binäres Wort ist desto einfacher, je größer seine algorithmische Wahrscheinlichkeit ist.
 
 Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man also ermitteln, indem man die Differenz $$I(G,e):=C(G)-C(G-e)$$ zwischen den Informationsgehalten von $$G$$ und $$G-e$$ berechnet.
 
 ## Literatur
 
-[1] H. Zenil, N.A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol. 1(1), pp. 58-66, 2019.
+[1] H. Zenil, N. A. Kiani, A. A. Zea, J. Tegnér, Causal Deconvolution by Algorithmic Generative Models, Nature Machine Intelligence, vol. 1(1), pp. 58-66, 2019.
 
 [2] A. N. Kolmogorow, Three approaches to the quantitative definition of information, Problems of Information Transmission (Russisch: Проблемы передачи информации), vol. 1(1), pp. 3-11, 1965.
 
@@ -45,3 +45,5 @@ Den Informationsbeitrag einer gegebenen Kante $$e$$ zum Graphen $$G$$ kann man a
 [4] M. Li, P. Vitányi, An Introduction to Kolmogorov Complexity and its Applications (3. Auflage). Springer Texts in Computer Science, 2008.
 
 [5] L. A. Levin, Laws of Information Conservation (Nongrowth) and Aspects of the Foundation of Probability Theory, Problems of Information Transmission (Russisch: Проблемы передачи информации), vol. 10(3), pp. 30–35, 1974.
+
+[6] J. P. Delahaye, H. Zenil, Numerical evaluation of algorithmic complexity for short strings: A glance into the innermost structure of randomness, Applied Mathematics and Computation, vol. 219(1), pp. 63-77, 2012.
