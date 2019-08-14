@@ -66,6 +66,12 @@
   <meta property="os:src" content="{{ protocols.os_src }}" />
   {% endif %}
 
+	<!-- Load jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!-- Load KaTeX -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+	
   <!-- Site styles -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
